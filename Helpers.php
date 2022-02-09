@@ -63,7 +63,7 @@ class Helpers {
         } else {
             // Handle backwards rotation
             for ($i = 0; $i > $rotationAmount; $i--) {
-                // Shit element from front of the array
+                // Shift element from front of the array
                 $first = array_shift($array);
 
                 // Push the first element to the back of the array
